@@ -1,18 +1,31 @@
 {
   "name": "perch",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.13",
+    "@react-navigation/material-bottom-tabs": "^6.2.28",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@rneui/base": "github:react-native-elements/react-native-elements#base",
+    "@rneui/themed": "github:react-native-elements/react-native-elements#themed",
+    "expo": "~51.0.11",
+    "expo-font": "^12.0.7",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.12.2",
     "react": "18.2.0",
-    "react-native": "0.74.2"
+    "react-native": "0.74.2",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-paper": "^5.12.3",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
